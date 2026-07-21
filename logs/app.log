@@ -1,0 +1,177 @@
+2026-07-21 04:43:42,451 | ERROR    | nexus | Registration error: 'Authenticate' object has no attribute 'credentials'
+2026-07-21 04:43:45,561 | ERROR    | nexus | Registration error: 'Authenticate' object has no attribute 'credentials'
+2026-07-21 04:44:27,834 | ERROR    | nexus | Registration error: Password does not meet criteria
+2026-07-21 04:44:35,736 | ERROR    | nexus | Registration error: Password does not meet criteria
+2026-07-21 04:44:45,184 | ERROR    | nexus | Registration error: 'Authenticate' object has no attribute 'credentials'
+2026-07-21 04:45:28,396 | ERROR    | nexus | Registration error: Name is not valid
+2026-07-21 04:48:10,281 | INFO     | nexus | Loading archive.zip (.zip)
+2026-07-21 04:48:11,262 | INFO     | nexus | Loaded 54,600 rows x 75 cols
+2026-07-21 04:48:11,277 | INFO     | nexus | Profiling dataset (54600, 75)
+2026-07-21 04:48:33,843 | INFO     | nexus | Loading fifa_world_cup_2026_player_performance.csv (.csv)
+2026-07-21 04:48:35,263 | INFO     | nexus | Loaded 54,600 rows x 75 cols
+2026-07-21 04:48:35,277 | INFO     | nexus | Profiling dataset (54600, 75)
+2026-07-21 04:48:36,478 | ERROR    | nexus | Upload failed: cannot access local variable 'db' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\pages\home.py", line 38, in render
+    db.record_upload(st.session_state.get("username", "guest"),
+    ^^
+UnboundLocalError: cannot access local variable 'db' where it is not associated with a value
+2026-07-21 04:50:14,972 | ERROR    | nexus | Page render failed
+Traceback (most recent call last):
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\app.py", line 80, in main
+    pages[selected]()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\pages\data_studio.py", line 92, in render
+    fig = px.imshow(numeric.corr(), color_continuous_scale="RdBu", zmid=0)
+TypeError: imshow() got an unexpected keyword argument 'zmid'. Did you mean 'zmin'?
+2026-07-21 04:50:30,027 | ERROR    | nexus | Page render failed
+Traceback (most recent call last):
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\app.py", line 80, in main
+    pages[selected]()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\pages\data_studio.py", line 92, in render
+    fig = px.imshow(numeric.corr(), color_continuous_scale="RdBu", zmid=0)
+TypeError: imshow() got an unexpected keyword argument 'zmid'. Did you mean 'zmin'?
+2026-07-21 04:50:33,168 | ERROR    | nexus | Page render failed
+Traceback (most recent call last):
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\app.py", line 80, in main
+    pages[selected]()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\pages\data_studio.py", line 92, in render
+    fig = px.imshow(numeric.corr(), color_continuous_scale="RdBu", zmid=0)
+TypeError: imshow() got an unexpected keyword argument 'zmid'. Did you mean 'zmin'?
+2026-07-21 04:50:34,701 | ERROR    | nexus | Page render failed
+Traceback (most recent call last):
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\app.py", line 80, in main
+    pages[selected]()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\pages\data_studio.py", line 92, in render
+    fig = px.imshow(numeric.corr(), color_continuous_scale="RdBu", zmid=0)
+TypeError: imshow() got an unexpected keyword argument 'zmid'. Did you mean 'zmin'?
+2026-07-21 04:50:35,525 | ERROR    | nexus | Page render failed
+Traceback (most recent call last):
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\app.py", line 80, in main
+    pages[selected]()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\pages\data_studio.py", line 92, in render
+    fig = px.imshow(numeric.corr(), color_continuous_scale="RdBu", zmid=0)
+TypeError: imshow() got an unexpected keyword argument 'zmid'. Did you mean 'zmin'?
+2026-07-21 04:50:38,415 | INFO     | nexus | Filled missing values using auto
+2026-07-21 04:50:40,513 | INFO     | nexus | Profiling dataset (54600, 75)
+2026-07-21 04:50:43,456 | ERROR    | nexus | Page render failed
+Traceback (most recent call last):
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\app.py", line 80, in main
+    pages[selected]()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\pages\data_studio.py", line 92, in render
+    fig = px.imshow(numeric.corr(), color_continuous_scale="RdBu", zmid=0)
+TypeError: imshow() got an unexpected keyword argument 'zmid'. Did you mean 'zmin'?
+2026-07-21 04:52:23,437 | WARNING  | nexus | Model Linear Regression failed: The DType <class 'numpy.dtypes.DateTime64DType'> could not be promoted by <class 'numpy.dtypes.Float64DType'>. This means that no common DType exists for the given inputs. For example they cannot be stored in a single array unless the dtype is `object`. The full list of DTypes is: (<class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.DateTime64DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int16DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>)
+2026-07-21 04:52:23,441 | WARNING  | nexus | Model Random Forest failed: The DType <class 'numpy.dtypes.DateTime64DType'> could not be promoted by <class 'numpy.dtypes.Float64DType'>. This means that no common DType exists for the given inputs. For example they cannot be stored in a single array unless the dtype is `object`. The full list of DTypes is: (<class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.DateTime64DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int16DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>)
+2026-07-21 04:52:28,475 | WARNING  | nexus | Model Linear Regression failed: The DType <class 'numpy.dtypes.DateTime64DType'> could not be promoted by <class 'numpy.dtypes.Float64DType'>. This means that no common DType exists for the given inputs. For example they cannot be stored in a single array unless the dtype is `object`. The full list of DTypes is: (<class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.DateTime64DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int16DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>)
+2026-07-21 04:52:28,478 | WARNING  | nexus | Model Random Forest failed: The DType <class 'numpy.dtypes.DateTime64DType'> could not be promoted by <class 'numpy.dtypes.Float64DType'>. This means that no common DType exists for the given inputs. For example they cannot be stored in a single array unless the dtype is `object`. The full list of DTypes is: (<class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.DateTime64DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int16DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>)
+2026-07-21 04:52:42,206 | WARNING  | nexus | Model Linear Regression failed: The DType <class 'numpy.dtypes.DateTime64DType'> could not be promoted by <class 'numpy.dtypes.Float64DType'>. This means that no common DType exists for the given inputs. For example they cannot be stored in a single array unless the dtype is `object`. The full list of DTypes is: (<class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.DateTime64DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int16DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>)
+2026-07-21 04:52:42,211 | WARNING  | nexus | Model Random Forest failed: The DType <class 'numpy.dtypes.DateTime64DType'> could not be promoted by <class 'numpy.dtypes.Float64DType'>. This means that no common DType exists for the given inputs. For example they cannot be stored in a single array unless the dtype is `object`. The full list of DTypes is: (<class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.DateTime64DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float32DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int16DType'>, <class 'numpy.dtypes.Int8DType'>, <class 'numpy.dtypes.Float32DType'>)
+2026-07-21 04:53:58,883 | INFO     | nexus | Generating PDF report
+2026-07-21 04:57:19,971 | INFO     | nexus | Loading orders.csv (.csv)
+2026-07-21 04:57:19,982 | INFO     | nexus | Loaded 3 rows x 8 cols
+2026-07-21 04:57:19,983 | INFO     | nexus | Profiling dataset (3, 8)
+2026-07-21 04:57:20,016 | ERROR    | nexus | Upload failed: cannot access local variable 'db' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\pages\home.py", line 38, in render
+    db.record_upload(st.session_state.get("username", "guest"),
+    ^^
+UnboundLocalError: cannot access local variable 'db' where it is not associated with a value
+2026-07-21 04:57:29,399 | INFO     | nexus | Loading fifa_world_cup_2026_player_performance.csv (.csv)
+2026-07-21 04:57:30,270 | INFO     | nexus | Loaded 54,600 rows x 75 cols
+2026-07-21 04:57:30,287 | INFO     | nexus | Profiling dataset (54600, 75)
+2026-07-21 04:57:31,172 | ERROR    | nexus | Upload failed: cannot access local variable 'db' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\pages\home.py", line 38, in render
+    db.record_upload(st.session_state.get("username", "guest"),
+    ^^
+UnboundLocalError: cannot access local variable 'db' where it is not associated with a value
+2026-07-21 04:57:43,995 | INFO     | nexus | Loading stock_transfers_2026-06-28.csv (.csv)
+2026-07-21 04:57:44,000 | INFO     | nexus | Loaded 1 rows x 6 cols
+2026-07-21 04:57:44,001 | INFO     | nexus | Profiling dataset (1, 6)
+2026-07-21 04:57:44,027 | ERROR    | nexus | Upload failed: cannot access local variable 'db' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\pages\home.py", line 38, in render
+    db.record_upload(st.session_state.get("username", "guest"),
+    ^^
+UnboundLocalError: cannot access local variable 'db' where it is not associated with a value
+2026-07-21 04:58:09,177 | ERROR    | nexus | Page render failed
+Traceback (most recent call last):
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\app.py", line 80, in main
+    pages[selected]()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\pages\data_studio.py", line 92, in render
+    # FIX: Changed zmid=0 to color_continuous_midpoint=0
+TypeError: imshow() got an unexpected keyword argument 'zmid'. Did you mean 'zmin'?
+2026-07-21 04:58:16,884 | INFO     | nexus | Filled missing values using auto
+2026-07-21 04:58:16,886 | INFO     | nexus | Profiling dataset (1, 6)
+2026-07-21 04:58:17,076 | ERROR    | nexus | Page render failed
+Traceback (most recent call last):
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\app.py", line 80, in main
+    pages[selected]()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\pages\data_studio.py", line 92, in render
+    # FIX: Changed zmid=0 to color_continuous_midpoint=0
+TypeError: imshow() got an unexpected keyword argument 'zmid'. Did you mean 'zmin'?
+2026-07-21 04:58:18,443 | INFO     | nexus | Profiling dataset (1, 6)
+2026-07-21 04:58:18,658 | ERROR    | nexus | Page render failed
+Traceback (most recent call last):
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\app.py", line 80, in main
+    pages[selected]()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\pages\data_studio.py", line 92, in render
+    # FIX: Changed zmid=0 to color_continuous_midpoint=0
+TypeError: imshow() got an unexpected keyword argument 'zmid'. Did you mean 'zmin'?
+2026-07-21 04:58:19,467 | INFO     | nexus | Profiling dataset (1, 6)
+2026-07-21 04:58:19,652 | ERROR    | nexus | Page render failed
+Traceback (most recent call last):
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\app.py", line 80, in main
+    pages[selected]()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\pages\data_studio.py", line 92, in render
+    # FIX: Changed zmid=0 to color_continuous_midpoint=0
+TypeError: imshow() got an unexpected keyword argument 'zmid'. Did you mean 'zmin'?
+2026-07-21 04:58:38,614 | ERROR    | nexus | ML training failed: With n_samples=1, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+Traceback (most recent call last):
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\pages\ml_lab.py", line 34, in render
+    result = train_models(df, target)
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\ml\modeler.py", line 53, in train_models
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
+                                       ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\ai_report\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\ai_report\Lib\site-packages\sklearn\model_selection\_split.py", line 2785, in train_test_split
+    n_train, n_test = _validate_shuffle_split(
+                      ~~~~~~~~~~~~~~~~~~~~~~~^
+        n_samples, test_size, train_size, default_test_size=0.25
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\ai_report\Lib\site-packages\sklearn\model_selection\_split.py", line 2415, in _validate_shuffle_split
+    raise ValueError(
+    ...<3 lines>...
+    )
+ValueError: With n_samples=1, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+2026-07-21 05:00:13,862 | INFO     | nexus | Loading fifa_world_cup_2026_player_performance.csv (.csv)
+2026-07-21 05:00:14,846 | INFO     | nexus | Loaded 54,600 rows x 75 cols
+2026-07-21 05:00:14,870 | INFO     | nexus | Profiling dataset (54600, 75)
+2026-07-21 05:00:16,718 | ERROR    | nexus | Upload failed: cannot access local variable 'db' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\pages\home.py", line 38, in render
+    db.record_upload(st.session_state.get("username", "guest"),
+    ^^
+UnboundLocalError: cannot access local variable 'db' where it is not associated with a value
+2026-07-21 05:01:03,452 | ERROR    | nexus | Page render failed
+Traceback (most recent call last):
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\app.py", line 80, in main
+    pages[selected]()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\pc\OneDrive\Desktop\dashboard_builder\pages\data_studio.py", line 92, in render
+    # FIX: Changed zmid=0 to color_continuous_midpoint=0
+TypeError: imshow() got an unexpected keyword argument 'zmid'. Did you mean 'zmin'?
+2026-07-21 05:01:16,116 | INFO     | nexus | Generating PDF report
